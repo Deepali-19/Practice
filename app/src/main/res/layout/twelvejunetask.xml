@@ -45,7 +45,7 @@
             android:orientation="vertical"
             android:padding="24dp">
 
-            <!-- Name -->
+            <!--F.Name = First Name -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Name:"
+                    android:text="F.Name:"
                     android:textSize="18sp"
                     android:textColor="#000000"
                     android:gravity="center_vertical" />
@@ -70,7 +70,82 @@
                     android:padding="10dp"/>
             </LinearLayout>
 
-            <!-- Email -->
+            <!--l.Name = Last Name -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="L.Name:"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Enter your surname"
+                    android:textSize="16sp"
+                    android:backgroundTint="#ADD8E6"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <!--Contact No.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contact:"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Phone No. with country code"
+                    android:textSize="16sp"
+                    android:backgroundTint="#ADD8E6"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <!--F.Name = First Name -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Course:"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="You appling for"
+                    android:textSize="16sp"
+                    android:backgroundTint="#ADD8E6"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <!--Email-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -94,6 +169,7 @@
                     android:backgroundTint="#ADD8E6"
                     android:padding="10dp"/>
             </LinearLayout>
+
 
             <!-- Buttons -->
             <LinearLayout
